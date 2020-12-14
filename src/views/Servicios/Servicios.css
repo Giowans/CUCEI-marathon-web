@@ -1,0 +1,120 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.custom-module-header {
+    margin: -20px !important;
+    padding: 10px 20px;
+    background:  #E9DB66;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.custom-module-header .search-block {
+    width: fit-content;
+}
+
+.module-canvas {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: fit-content;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .module-canvas {
+      margin-left: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .custom-module-header h3 {
+      display: block;
+      width: 100%;
+      text-overflow: ellipsis;
+    }
+  
+    .custom-module-header .search-block {
+      float: unset;
+      margin-top: 10px;
+      width:100%;
+    }
+    
+    .custom-module-header .helper-btn:not(:first-child) {
+      margin-top: 10px;
+    }
+  
+    .custom-module-header .helper-btn:first-child {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    .custom-module-header .helper-btn {
+      width: 100%;
+      display: block;
+      margin-top: 10px;
+      text-overflow: ellipsis;
+      margin-left: 0px !important;
+    }
+  }
+
+.input{
+    box-shadow: inset 2px transparent !important;
+  }
+  
+.input:focus{
+    color: #495057 !important;
+    background-color: #fff !important;
+    border-color: white !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem #FFF282 !important;
+  }
+
+  .rs-table-cell-header .rs-table-cell-content{
+    font-weight: bold;
+    font-size: 14px !important;
+    color: #575757;
+    cursor: unset;
+  }
+  .clickable-table .rs-table-row:hover {
+    cursor: pointer;
+  }
+  .striped-table .rs-table-row:nth-child(even),
+  .striped-table .rs-table-row:nth-child(even) .rs-table-cell{
+    background: #F3F4F6;
+  }
+  .rs-btn-gray {
+    border: 1px solid #ccc !important;
+    color: #333 !important;
+  }
+
+  .small-table-rows .rs-table-row{
+    height: unset !important;
+  }
+  
+  .small-table-rows .rs-table-cell{
+    height: unset !important;
+  }
+  
+  .small-table-rows .rs-table-row{
+    height: unset !important;
+  }
+  
+  .rs-table-cell-content  > .rs-table-cell-wrap > .rs-btn {
+    padding: 0px; 
+    height: 30px;
+    width: 30px;
+  }
+  
+  .rs-table-cell-content  > .rs-table-cell-wrap > .rs-btn > .rs-icon {
+    padding: 5px 8px;
+    width: unset;
+  }
+
+  .in {
+    display: block !important;
+}

@@ -1,0 +1,121 @@
+.centered-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    height: auto;
+    width: 100%;
+}
+
+.rs-drawer-content {
+    background-color: #FFF282;
+}
+
+.user-info {
+    width: 100%;
+    overflow-y: scroll;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+b {
+    color: black;
+}
+
+.user-info > a {
+    color: rgb(50, 50, 50);
+    transition: 00.5s;
+}
+
+.user-info > a:hover {
+    color: black;
+}
+
+.no-show {
+    display: none;
+    height: 0px;
+}
+
+.avatar-image {
+    min-width: 20vw;
+    min-height: 20vw;
+    background-color: black;
+}
+
+h3 {
+    color: black;
+}
+
+.icon-maxised {
+    font-size: 100pt !important;
+}
+
+.list-item {
+    width: 100%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding: 4px;
+    border-color: gray;
+    color: black;
+    font-size: 14pt;
+    text-align: left;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.list-item:last-child {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.list-item:hover {
+    background-color: black;
+    color: white;
+}
+.rs-modal-footer > .rs-btn-primary {
+    font-size: 12pt;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.rs-modal-footer > .rs-btn-primary:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.rs-modal-footer > .rs-btn-ghost {
+    font-size: 12pt;
+    padding: 9px;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+    color: rgb(50, 50, 50);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rs-modal-footer > .rs-btn-ghost:hover {
+    border-color: black;
+    color: black;
+}
+
+.rs-col > .rs-input {
+    width: 100%;
+    height: 8vh;
+    border-color: rgb(100, 100, 100);
+    background-color: white;
+    color: black;
+    font-size: 14pt;
+}
+
+.rs-col > .rs-input:hover {
+    border-color: black;
+}

@@ -1,0 +1,19 @@
+.avatar-config {
+    display: flex !important;
+    align-items: center !important;
+    margin-right: 10px;
+    background-color:  transparent;
+}
+
+.navbar-user{
+    justify-self: flex-end !important;
+    cursor: pointer;
+    width: auto;
+    min-height: 60px;
+    transition: 0.3s;
+}
+
+.navbar-user:hover {
+    background-color: #FFF282;
+}
+

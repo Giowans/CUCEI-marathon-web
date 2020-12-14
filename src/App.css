@@ -3,36 +3,50 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  min-width: 300px;
+  min-height: 300px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.primary{
+  background-color: #F7FF33 !important;
+  border-color: #F7FF33 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.primary:hover, .primary-ghost:hover {
+  background-color: #FFE433 !important;
+  border-color: #FFE433 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.primary-ghost {
+  background-color: transparent !important;
+  border-color: #F7FF33 !important;
+  color: #F7FF33 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*---- Scrollbar styles -----*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
 }
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8D8B7C; 
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #B4AD73; 
+}
+
+
