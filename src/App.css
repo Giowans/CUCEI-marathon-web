@@ -9,19 +9,19 @@
 }
 
 .primary{
-  background-color: #F7FF33 !important;
-  border-color: #F7FF33 !important;
+  background-color: #06186C !important;
+  border-color: #06186C !important;
 }
 
 .primary:hover, .primary-ghost:hover {
-  background-color: #FFE433 !important;
-  border-color: #FFE433 !important;
+  background-color: #15359A !important;
+  border-color: #00A1F3 !important;
 }
 
 .primary-ghost {
   background-color: transparent !important;
-  border-color: #F7FF33 !important;
-  color: #F7FF33 !important;
+  border-color: #06186C !important;
+  color: #06186C !important;
 }
 
 /*---- Scrollbar styles -----*/
